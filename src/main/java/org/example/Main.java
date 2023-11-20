@@ -9,7 +9,7 @@ public class Main {
     Player player_neverChange=new Player("Игрок никогда не меняет дверь",3,false);
     Player player_alwaysChange=new Player("Игрок всегда меняет дверь",3,true);
     Game game=new Game(3);
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < 1000; i++) {
             game.turn();
             player_neverChange.turn();
             player_alwaysChange.turn();
